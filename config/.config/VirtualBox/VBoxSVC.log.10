@@ -1,0 +1,204 @@
+00:00:00.000246 main     VirtualBox XPCOM Server 6.0.8 r130347 linux.amd64 (May 15 2019 09:04:27) release log
+00:00:00.000249 main     Log opened 2019-06-04T16:48:37.332561000Z
+00:00:00.000249 main     Build Type: release
+00:00:00.000251 main     OS Product: Linux
+00:00:00.000252 main     OS Release: 4.19.45-1-MANJARO
+00:00:00.000253 main     OS Version: #1 SMP PREEMPT Wed May 22 17:16:41 UTC 2019
+00:00:00.000275 main     DMI Product Name: PPPPP-CCC#MMMMMMMM
+00:00:00.000287 main     DMI Product Version: xxx0204GRxxxxxxxx0
+00:00:00.000323 main     Host RAM: 3618MB (3.5GB) total, 2725MB (2.6GB) available
+00:00:00.000325 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000325 main     Process ID: 2090
+00:00:00.000326 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.001981 main     IPC socket path: /tmp/.vbox-juansquintero-ipc/ipcd
+00:00:00.109515 nspr-2   VirtualBox: object creation starts
+00:00:00.109655 nspr-2   Home directory: '/home/juansquintero/.config/VirtualBox'
+00:00:00.110234 nspr-2   Loading settings file "/home/juansquintero/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.121921 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.124060 nspr-2   NAT: resolv.conf: nameserver 192.168.1.1
+00:00:00.124102 nspr-2   HostDnsMonitor::updateInfo
+00:00:00.124134 nspr-2   HostDnsMonitor: old information
+00:00:00.124148 nspr-2     no server entries
+00:00:00.124159 nspr-2     no domain set
+00:00:00.124168 nspr-2     no search string entries
+00:00:00.124176 nspr-2   HostDnsMonitor: new information
+00:00:00.124183 nspr-2     server 1: 192.168.1.1
+00:00:00.124191 nspr-2     no domain set
+00:00:00.124198 nspr-2     no search string entries
+00:00:00.128953 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.129365 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.129542 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d55176e5-6730-4e9e-fc1f-a59b1f44f78f} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.138399 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/Windows 10/Windows 10.vbox' for reading: -102 (File not found.).
+00:00:00.138410 nspr-2   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.138765 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/arch/arch.vbox' for reading: -102 (File not found.).
+00:00:00.138773 nspr-2   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.139255 nspr-2   VirtualBox: object created
+00:00:00.748698 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/Windows 10/Windows 10.vbox' for reading: -102 (File not found.).
+00:00:00.748707 nspr-2   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.749179 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/Windows 10/Windows 10.vbox' for reading: -102 (File not found.).
+00:00:00.749184 nspr-2   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.750314 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/Windows 10/Windows 10.vbox' for reading: -102 (File not found.).
+00:00:00.750319 nspr-2   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.754600 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/arch/arch.vbox' for reading: -102 (File not found.).
+00:00:00.754607 nspr-2   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.755024 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/arch/arch.vbox' for reading: -102 (File not found.).
+00:00:00.755029 nspr-2   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.756168 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/arch/arch.vbox' for reading: -102 (File not found.).
+00:00:00.756174 nspr-2   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.757437 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:00.757467 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:00.757487 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'Windows 10'}, preserve=false aResultDetail=0
+00:00:02.100236 nspr-2   Saving settings file "/home/juansquintero/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:02.193193 nspr-3   Saving settings file "/home/juansquintero/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:05.224705 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:05.254504 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/Windows 10/Windows 10.vbox' for reading: -102 (File not found.).
+00:00:05.254518 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:05.258898 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/Windows 10/Windows 10.vbox' for reading: -102 (File not found.).
+00:00:05.258908 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:05.308377 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/Windows 10/Windows 10.vbox' for reading: -102 (File not found.).
+00:00:05.308386 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:05.308751 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:05.310279 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:05.312060 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:05.313286 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:05.316806 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/Windows 10/Windows 10.vbox' for reading: -102 (File not found.).
+00:00:05.316813 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:05.317923 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/Windows 10/Windows 10.vbox' for reading: -102 (File not found.).
+00:00:05.317928 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:05.319176 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/Windows 10/Windows 10.vbox' for reading: -102 (File not found.).
+00:00:05.319181 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:05.320445 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/Windows 10/Windows 10.vbox' for reading: -102 (File not found.).
+00:00:05.320451 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:05.322720 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/Windows 10/Windows 10.vbox' for reading: -102 (File not found.).
+00:00:05.322726 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:05.324830 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/Windows 10/Windows 10.vbox' for reading: -102 (File not found.).
+00:00:05.324837 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:05.576747 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:05.580023 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/arch/arch.vbox' for reading: -102 (File not found.).
+00:00:05.580036 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:05.581472 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/arch/arch.vbox' for reading: -102 (File not found.).
+00:00:05.581484 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:05.582435 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/arch/arch.vbox' for reading: -102 (File not found.).
+00:00:05.582443 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:05.582930 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:05.584670 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:05.586596 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/arch/arch.vbox' for reading: -102 (File not found.).
+00:00:05.586603 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:05.587244 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/arch/arch.vbox' for reading: -102 (File not found.).
+00:00:05.587250 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:05.587863 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/arch/arch.vbox' for reading: -102 (File not found.).
+00:00:05.587869 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:05.588445 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/arch/arch.vbox' for reading: -102 (File not found.).
+00:00:05.588451 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:05.590211 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/arch/arch.vbox' for reading: -102 (File not found.).
+00:00:05.590223 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:05.590944 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/arch/arch.vbox' for reading: -102 (File not found.).
+00:00:05.590950 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:10.137294 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:10.155274 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/Windows 10/Windows 10.vbox' for reading: -102 (File not found.).
+00:00:10.155288 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:10.157686 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/Windows 10/Windows 10.vbox' for reading: -102 (File not found.).
+00:00:10.157699 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:10.158711 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/Windows 10/Windows 10.vbox' for reading: -102 (File not found.).
+00:00:10.158723 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:10.159529 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:10.161810 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:10.163607 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/Windows 10/Windows 10.vbox' for reading: -102 (File not found.).
+00:00:10.163614 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:10.164211 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/Windows 10/Windows 10.vbox' for reading: -102 (File not found.).
+00:00:10.164218 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:10.164841 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/Windows 10/Windows 10.vbox' for reading: -102 (File not found.).
+00:00:10.164847 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:10.165536 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/Windows 10/Windows 10.vbox' for reading: -102 (File not found.).
+00:00:10.165542 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:10.166262 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/Windows 10/Windows 10.vbox' for reading: -102 (File not found.).
+00:00:10.166269 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:10.166978 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/Windows 10/Windows 10.vbox' for reading: -102 (File not found.).
+00:00:10.166985 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:12.408502 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/Windows 10/Windows 10.vbox' for reading: -102 (File not found.).
+00:00:12.408517 nspr-3   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:13.817704 nspr-2   Saving settings file "/home/juansquintero/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:14.818170 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:14.845433 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/arch/arch.vbox' for reading: -102 (File not found.).
+00:00:14.845448 nspr-2   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:14.846358 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/arch/arch.vbox' for reading: -102 (File not found.).
+00:00:14.846366 nspr-2   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:14.847226 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/arch/arch.vbox' for reading: -102 (File not found.).
+00:00:14.847235 nspr-2   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:14.847689 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:14.848952 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:14.851740 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/arch/arch.vbox' for reading: -102 (File not found.).
+00:00:14.851751 nspr-2   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:14.852543 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/arch/arch.vbox' for reading: -102 (File not found.).
+00:00:14.852550 nspr-2   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:14.853377 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/arch/arch.vbox' for reading: -102 (File not found.).
+00:00:14.853385 nspr-2   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:14.854148 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/arch/arch.vbox' for reading: -102 (File not found.).
+00:00:14.854155 nspr-2   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:14.854768 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/arch/arch.vbox' for reading: -102 (File not found.).
+00:00:14.854774 nspr-2   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:14.855646 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/arch/arch.vbox' for reading: -102 (File not found.).
+00:00:14.855655 nspr-2   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:15.754538 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={Runtime error opening '/home/juansquintero/VirtualBox VMs/arch/arch.vbox' for reading: -102 (File not found.).
+00:00:15.754550 nspr-2   /build/virtualbox/src/VirtualBox-6.0.8/src/VBox/Main/src-server/MachineImpl.cpp[752] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:16.818309 nspr-2   Saving settings file "/home/juansquintero/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:59.065445 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:59.066894 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:59.237169 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:59.347968 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:59.349451 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:59.351140 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:59.352174 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:59.353335 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:59.354517 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:59.355727 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:59.356871 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:59.357911 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:59.358948 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:01:07.140517 createBase Saving settings file "/home/juansquintero/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:07.761947 nspr-3   Saving settings file "/home/juansquintero/VirtualBox VMs/arch/arch.vbox" with version "1.16-linux"
+00:01:07.826671 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:01:07.838189 nspr-2   Saving settings file "/home/juansquintero/VirtualBox VMs/arch/arch.vbox" with version "1.16-linux"
+00:01:07.888354 nspr-2   Saving settings file "/home/juansquintero/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:07.944930 nspr-4   Saving settings file "/home/juansquintero/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:07.992354 nspr-2   Saving settings file "/home/juansquintero/VirtualBox VMs/arch/arch.vbox" with version "1.16-linux"
+00:01:08.059962 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={This machine does not have any snapshots}, preserve=false aResultDetail=0
+00:01:08.082449 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:01:08.087287 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:01:08.090697 nspr-4   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:01:08.104800 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:01:08.106615 nspr-4   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:01:08.107764 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:01:08.108742 nspr-4   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:01:08.109716 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:01:08.110805 nspr-4   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:01:08.111933 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:01:08.113280 nspr-4   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:01:08.114922 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:01:08.116133 nspr-4   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:01:08.117282 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={MachineWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:01:08.430520 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:01:08.488544 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:08.551305 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:01:08.552862 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:01:22.510669 nspr-3   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:22.712168 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:01:23.296751 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:23.296980 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:23.297161 nspr-4   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:23.317195 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:01:23.324948 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp3s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:01:23.340095 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:01:23.340748 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:01:23.666641 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:01:23.685623 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:01:23.686844 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={dbe11e5f-7f10-46e7-94c4-1e95bf4b6627} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:05:10.553750 nspr-3   Saving settings file "/home/juansquintero/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:05:14.377220 nspr-4   Saving settings file "/home/juansquintero/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:05:14.486277 nspr-4   Saving settings file "/home/juansquintero/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:05:14.597879 nspr-4   Saving settings file "/home/juansquintero/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:05:20.207274 main     VirtualBox: object deletion starts
+00:05:20.207369 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/juansquintero/VirtualBox VMs/arch/arch.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:05:20.532158 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:05:25.316224 main     {00007fa4ec018290} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:05:25.782501 main     VirtualBox: object deleted

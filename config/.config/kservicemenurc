@@ -1,0 +1,5 @@
+[Show]
+kactivitymanagerd_fileitem_linking_plugin=false
+kdeconnectsendfile=false
+sharefileitemaction=false
+tagsfileitemaction=false

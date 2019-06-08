@@ -1,0 +1,29 @@
+00:00:01.651169 VirtualBox GUI VM Selector Window 6.0.8 r130347 linux.amd64 (May 15 2019 09:04:27) release log
+00:00:01.651172 Log opened 2019-06-07T17:56:16.909070000Z
+00:00:01.651174 Build Type: release
+00:00:01.651178 OS Product: Linux
+00:00:01.651180 OS Release: 4.19.45-1-MANJARO
+00:00:01.651182 OS Version: #1 SMP PREEMPT Wed May 22 17:16:41 UTC 2019
+00:00:01.651219 DMI Product Name: PPPPP-CCC#MMMMMMMM
+00:00:01.651236 DMI Product Version: xxx0204GRxxxxxxxx0
+00:00:01.651312 Host RAM: 3618MB (3.5GB) total, 3334MB (3.2GB) available
+00:00:01.651318 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:01.651319 Process ID: 1046
+00:00:01.651319 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:01.651369 Qt version: 5.12.3
+00:00:01.813597 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:04.416387 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 799x451 x 75x50
+00:00:04.596761 Failed to open "/dev/vboxdrv", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:00:04.596969 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:31.224080 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:31.305840 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:44.814135 GUI: UIMediumEnumerator: Medium with key={{de78d1df-c7d6-4515-afa7-95053134a759}} created
+00:00:45.187925 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:48.073172 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:48.735064 2D support test succeeded
+00:00:48.933975 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:00.212321 GUI: UIMediumEnumerator: Medium with key={{a5cb23ad-c1f7-450a-a072-b60398bb8ec8}} created
+00:01:09.670128 GUI: UIMediumEnumerator: Medium with key={{6e0f1c06-0635-42b8-9025-04e2e036b339}} created
+00:01:18.510176 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:20.061135 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:20.867386 GUI: UIMediumEnumerator: Medium-enumeration finished!

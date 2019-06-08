@@ -1,0 +1,217 @@
+[bar/bar]
+width = 100%
+height = 27
+radius = 0
+fixed-center = true
+
+background = #1d1f21
+foreground = #c5c8c6
+
+line-size = 1
+line-color =
+
+border-size = 0
+border-color = 
+padding-left = 0
+padding-right = 2
+
+module-margin-left = 1
+module-margin-right = 1
+
+font-0 = "Sauce Code Pro Nerd Font:style=bold:pixelsize=11;1"
+font-1 = "Sauce Code Pro Nerd Font:style=bold:pixelsize=11;1"
+font-2 = "Sauce Code Pro Nerd Font:style=bold:pixelsize=11;1"
+
+
+modules-left = i3 upd spot
+modules-center = date
+modules-right = pavolume cpu mem wlan eth kdec powermenu
+
+;tray-position = 1
+;tray-padding =
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+[module/eth]
+type = internal/network
+interface = enp1s0
+interval = 3.0
+
+format-connected-padding = 2
+format-connected-foreground = #c5c8c6
+format-connected-background = #282a2e
+format-connected-prefix = " "
+format-connected-prefix-foreground = #c5c8c6
+label-connected = "ON"
+label-disconnected = 
+format-disconnected =
+
+[module/wlan]
+type =  internal/network
+interface =  wlp3s0
+interval  =  3.0
+accumulate-status  =  true
+unknown-as-up  =  true
+format-connected = %{A1:$HOME/Scripts/wlan-rofi:}<ramp-signal>%{A} 
+format-disconnected = <label-disconnected>
+label-connected =  %essid%  %downspeed:9%
+label-connected-foreground = #c5c8c6
+label-connected-background = #282a2e
+ramp-signal-0  =   
+ramp-signal-1  =  
+ramp-signal-2  =  
+ramp-signal-3  =  
+ramp-signal-4  =  
+ramp-signal-5  =  
+
+[module/pavolume]
+type = custom/script
+tail = true
+label = %output%
+exec = ~/.config/polybar/pavolume.sh --listen
+click-right = exec pavucontrol
+click-left = ~/.config/polybar/pavolume.sh --togmute
+scroll-up = ~/.config/polybar/pavolume.sh --up
+scroll-down = ~/.config/polybar/pavolume.sh --down
+format-foreground = #C5C8C6
+format-background = #282A2E
+
+
+[module/upd]
+type = custom/script
+exec = ~/.config/polybar/updates-comb.sh
+interval = 600
+
+[module/mem]
+type = internal/memory
+interval = 2
+format = <label> <bar-used>
+label = RAM:%gb_used%/%gb_free%
+bar-used-indicator =
+bar-used-width = 6
+bar-used-foreground-0 = #55aa55
+bar-used-foreground-1 = #557755
+bar-used-foreground-2 = #f5a70a
+bar-used-foreground-3 = #ff5555
+bar-used-fill = ▐
+bar-used-empty = ▐
+bar-used-empty-foreground = #444444
+
+[module/cpu]
+type = internal/cpu
+interval = 1
+format-foreground = #c5c8c6
+format-background = #282a2e
+format-prefix = " CPU: "
+format-prefix-foreground = #6B7443
+format-underline = #A24457
+
+[module/kdec]
+type = custom/script
+exec = "/home/juansquintero/.config/polybar/polybar-kdeconnect.sh -d"
+tail = true
+
+[module/spot]
+type = custom/script
+interval = 1
+format-foreground = #c5c8c6
+format-background = #282a2e
+format-prefix = "♫ "
+format-prefix-foreground = #6B7443
+format-prefix-background = #2A474A 
+format = <label>
+exec = python /home/juansquintero/.config/polybar/spotify_status.py -f '{artist}: {song}'
+format-underline = #1db954
+label-maxlen = 25
+
+
+[module/i3]
+type = internal/i3
+format = <label-state> <label-mode>
+index-sort = true
+wrapping-scroll = false
+
+label-mode-padding = 2
+label-mode-foreground = #c5c8c6
+label-mode-background = #282a2e
+
+label-focused = %index%
+label-focused-background = #373b41
+label-focused-foreground = #6b7443
+label-focused-padding = 2
+
+label-unfocused = %index%
+label-unfocused-background = #282a2e
+label-unfocused-foreground = #c5c8c6
+label-unfocused-padding = 2
+
+label-visible = %index%
+label-visible-background = #282a2e
+label-visible-foreground = #c5c8c6
+label-visible-padding = 2
+
+label-urgent = %index%
+label-urgent-background = #BA2922
+label-urgent-padding = 2
+
+
+[module/date]
+type = internal/date
+interval = 1
+
+date =
+date-alt = " %d-%m-%Y"
+
+time = %I:%M %p
+time-alt = %I:%M:%S %p
+
+format-prefix = 
+format-foreground = #c5c8c6
+format-background = #282a2e
+format-padding = 2
+
+label = %date% %time%
+
+[module/powermenu]
+type = custom/menu
+
+expand-right = true
+
+format-spacing = 1
+
+label-open = 
+label-open-foreground = #c5c8c6
+label-close =  cancel
+label-close-foreground = #c5c8c6
+label-separator = |
+label-separator-foreground = #c5c8c6
+
+menu-0-0 = reboot
+menu-0-0-exec = menu-open-1
+menu-0-1 = power off
+menu-0-1-exec = menu-open-2
+menu-0-2 = log off
+menu-0-2-exec = menu-open-3
+
+menu-1-0 = cancel
+menu-1-0-exec = menu-open-0
+menu-1-1 = reboot
+menu-1-1-exec = reboot
+
+menu-2-0 = power off
+menu-2-0-exec = poweroff
+menu-2-1 = cancel
+menu-2-1-exec = menu-open-0
+
+menu-3-0 = log off
+menu-3-0-exec = pkill -KILL -u $USER
+menu-3-1 = cancel
+menu-3-1-exec = menu-open-0
+
+[settings]
+screenchange-reload = true
+
+[global/wm]
+margin-top = 0
+margin-bottom = 0

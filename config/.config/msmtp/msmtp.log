@@ -1,0 +1,3 @@
+may 29 00:24:51 host=smtp.gmail.com tls=on auth=on user=strangelife28@gmail.com from=strangelife28@gmail.com recipients=strangelife1628@outlook.com mailsize=347 smtpstatus=250 smtpmsg='250 2.0.0 OK  1559107501 n68sm27499646vkd.0 - gsmtp' exitcode=EX_OK
+may 29 00:27:02 host=smtp.gmail.com tls=on auth=on user=strangelife28@gmail.com from=strangelife28@gmail.com recipients=strangelife28@gmail.com mailsize=344 smtpstatus=250 smtpmsg='250 2.0.0 OK  1559107632 d7sm7106105uae.6 - gsmtp' exitcode=EX_OK
+may 29 00:36:21 host=smtp.gmail.com tls=on auth=on user=strangelife28@gmail.com from=strangelife28@gmail.com recipients=rafaelstiven999@gmail.com,eysonesteban1998@gmail.com mailsize=545 smtpstatus=250 smtpmsg='250 2.0.0 OK  1559108190 v133sm12317496vkv.5 - gsmtp' exitcode=EX_OK

@@ -1,0 +1,11 @@
+[General]
+UrlNavigatorIsEditable=false
+
+[MainWindow]
+Height 900=859
+State=AAAA/wAAAAD9AAAAAAAAAxMAAAMNAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1600=787
+
+[SideBar]
+SideBarSplitterSizes=200,581

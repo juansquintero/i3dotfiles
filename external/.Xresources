@@ -1,0 +1,155 @@
+!!Grvubox
+!----------------------
+!----------------------
+*background: #282828
+*foreground: #ebdbb2
+*color0:  #282828
+*color8:  #928374
+*color1:  #cc241d
+*color9:  #fb4934
+*color2:  #98971a
+*color10: #b8bb26
+*color3:  #d79921
+*color11: #fabd2f
+*color4:  #458588
+*color12: #83a598
+*color5:  #b16286
+*color13: #d3869b
+*color6:  #689d6a
+*color14: #8ec07c
+*color7:  #a89984
+*color15: #ebdbb2
+!----------------------
+!----------------------
+!!Gruvbox
+
+
+!Dracula
+!---------------------
+!--------------------- 
+!*.foreground: #F8F8F2
+!*.background: #282A36
+!*.color0:     #000000
+!*.color8:     #4D4D4D
+!*.color1:     #FF5555
+!*.color9:     #FF6E67
+!*.color2:     #50FA7B
+!*.color10:    #5AF78E
+!*.color3:     #F1FA8C
+!*.color11:    #F4F99D
+!*.color4:     #BD93F9
+!*.color12:    #CAA9FA
+!*.color5:     #FF79C6
+!*.color13:    #FF92D0
+!*.color6:     #8BE9FD
+!*.color14:    #9AEDFE
+!*.color7:     #BFBFBF
+!*.color15:    #E6E6E6
+!----------------------
+!----------------------
+!Dracula
+
+
+!! Transparency (0-1):
+!----------------------
+!----------------------
+st.alpha: 0.98
+!----------------------
+!----------------------
+
+
+!! Set a default font and font size as below:
+!----------------------
+!----------------------
+st.font: Sauce Code Pro Nerd Font:size=11:antialias=true:autohint=true;
+st.termname: st-256color
+st.borderpx: 2
+!----------------------
+!----------------------
+
+
+!!I think this is for X terminals
+!----------------------
+!----------------------
+*.font: xft:Sauce Code Pro Nerd Font Mono:size=11
+*.depth:                      32
+*.scrollBar:                  false
+*.mouseWheelScrollPage:       true
+*.cursorBlink:                true
+*.saveLines:                  5000
+*.internalBorder: 5
+*.geometry: 70x19
+!----------------------
+!----------------------
+
+
+!Gruvbox---------------
+!----------------------
+rofi.color-enabled: true
+rofi.color-window: #1d2021, #8c9440, #8c9440
+rofi.color-normal: #1d2021, #D8CA8F, #1d1f21, #1d1f21, #FF8700
+rofi.color-active: #1d2021, #D8CA8F, #1d1f21, #1d1f21, #FF8700
+rofi.color-urgent: #1d2021, #D8CA8F, #1d1f21, #1d1f21, #FF8700
+!Gruvbox---------------
+!----------------------
+
+
+!!Dracula--------------
+!----------------------
+!rofi.color-enabled: true
+!rofi.color-window: #44474a, #f1fa8c, #f1fa8c
+!rofi.color-normal: #44474a, #8BE9FD, #44475a, #44475a, #FF7AC6
+!rofi.color-active: #f0fa8c, #44475a, #8BE9FD, #44475a, #FF7AC6
+!rofi.color-urgent: #f0fa8c, #44475a, #8BE9FD, #44475a, #FF7AC6
+!!Dracula--------------
+!----------------------
+
+!Rofi settings---------
+!----------------------
+rofi.separator-style: solid
+rofi.sidebar-mode: false
+rofi.lines: 5
+rofi.font: Sauce Code Pro Nerd Font Mono 10.5
+rofi.bw: 1
+rofi.columns: 2
+rofi.padding: 5
+rofi.fixed-num-lines: true
+rofi.hide-scrollbar: true
+!----------------------
+!----------------------
+
+
+!Colors---------------
+!---------------------
+*.color24:  #076678
+*.color66:  #427b58
+*.color88:  #9d0006
+*.color96:  #8f3f71
+*.color100: #79740e
+*.color108: #8ec07c
+*.color109: #83a598
+*.color130: #af3a03
+*.color136: #b57614
+*.color142: #b8bb26
+*.color167: #fb4934
+*.color175: #d3869b
+*.color208: #fe8019
+*.color214: #fabd2f
+*.color223: #ebdbb2
+*.color228: #f2e5bc
+*.color229: #fbf1c7
+*.color230: #f9f5d7
+*.color234: #1d2021
+*.color235: #282828
+*.color236: #32302f
+*.color237: #3c3836
+*.color239: #504945
+*.color241: #665c54
+*.color243: #7c6f64
+*.color244: #928374
+*.color245: #928374
+*.color246: #a89984
+*.color248: #bdae93
+*.color250: #d5c4a1
+!----------------------
+!----------------------
